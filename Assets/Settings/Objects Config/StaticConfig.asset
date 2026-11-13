@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 262669166d103df45bd4aebcbe2092c5, type: 3}
+  m_Name: StaticConfig
+  m_EditorClassIdentifier: 
+  <UIColors>k__BackingField:
+    <Selected>k__BackingField: {r: 0.36044857, g: 0.5556596, b: 0.9433962, a: 1}
+    <SelectedLighter>k__BackingField: {r: 0.4481132, g: 0.6333619, b: 1, a: 1}
+    <Default>k__BackingField: {r: 0.34389463, g: 0.3750191, b: 0.4528302, a: 1}
+    <DefaultLighter>k__BackingField: {r: 0.4919455, g: 0.53016275, b: 0.6320754, a: 1}
+    <DefaultLightest>k__BackingField: {r: 0.56554824, g: 0.591614, b: 0.6698113, a: 1}
+  <Audio>k__BackingField:
+    <Groups>k__BackingField:
+      <Music>k__BackingField: {fileID: -7229798139083495250, guid: bdbf60e6ad9ea7248ad349b3bc9e599c, type: 2}
+      <SFX>k__BackingField: {fileID: -9069076498797013638, guid: bdbf60e6ad9ea7248ad349b3bc9e599c, type: 2}
+    <Clips>k__BackingField:
+      <FallOnSnow>k__BackingField: {fileID: 8300000, guid: 72d7cd04f0ba65b4f9f85d09facb1e0b, type: 3}
+      <SlideOnIce>k__BackingField: {fileID: 8300000, guid: 35ac9cb51568a9c4e9af8cbc882ce706, type: 3}
+  <Materials>k__BackingField:
+    <Cat>k__BackingField: {fileID: 2100000, guid: 6c3b63776fabe0649a6be5513ce02ec2, type: 2}

@@ -1,0 +1,2 @@
+
+public class LevelDoorEntrance : LevelDoor { }

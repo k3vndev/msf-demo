@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d7bf249df72d468c9218c99c8c4f9, type: 3}
+  m_Name: JumpPadConfig
+  m_EditorClassIdentifier: 
+  <Reach>k__BackingField: 5
+  <PushDelay>k__BackingField: 0.3
+  <PushVelocity>k__BackingField: 4.2
+  <JumpPowerMinMax>k__BackingField: {x: 3.3, y: 4.5}
+  <ChangeDirectionTime>k__BackingField: 0.4
+  <ObstaclesLayer>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 35656
+  <ReactivateAnimPercent>k__BackingField: 0.75
+  <Sound>k__BackingField: {fileID: 8300000, guid: b4ceb0b7f3a2ffe48ad907dffe538a9e, type: 3}
+  <BaseVolume>k__BackingField: 0.7
+  <MaxAdditionalVolume>k__BackingField: 0.7
+  <BasePitchRange>k__BackingField: {x: -0.2, y: -0.1}
+  <MaxAdditionalPitch>k__BackingField: 0.33
+  <FadeTime>k__BackingField: {x: 0.1, y: 0.3}
+  <ModelRotationTime>k__BackingField: 1.12
+  <EntityMaxDistance>k__BackingField: 0.3
+  <RotateEasing>k__BackingField: 9

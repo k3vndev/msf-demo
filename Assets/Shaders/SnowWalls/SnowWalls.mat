@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8379290734686675685
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SnowWalls
+  m_Shader: {fileID: -6465566751694194690, guid: 5c650eac8c5597e47b01859282ef3451, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorScale: 10
+    - _DisplacementHeightFactor: 1
+    - _LineHeight: -0.1
+    - _LineIntensity: 1.2
+    - _LineThickness: 0.37
+    - _LineVariation: 0.15
+    - _NeighborDistance: 0.01
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SmoothnessFactor: 0.53
+    - _SnowBorderHeight: 0.1
+    - _SnowColorHeight: 0.35
+    - _SnowColorIntensity: 2.5
+    - _SnowColorStart: 0.36
+    - _SnowColorStartHeight: 0.5
+    - _SnowColorVariation: 0.075
+    - _SnowDisplacement: 0.05
+    - _SnowHeight: 0.05
+    - _SnowIntensity: 1.6
+    - _SnowStartHeight: 0.33
+    - _SnowVariation: 0.6
+    - _WallDetailHeight: 0
+    - _WallDetailIntensity: 2.3
+    - _WallDetailThickness: 0.36
+    - _WallDetailVariation: 0.15
+    - _WallDisplacementStart: 0.35
+    - _WallStartDisplacement: 0.35
+    m_Colors:
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
+    - _PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondaryColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 0}
+    - _SmoothnessMinMax: {r: 0.25, g: 0.75, b: 0, a: 0}
+    - _SnowColor: {r: 0.98039216, g: 1, b: 1, a: 1}
+    - _WallColor: {r: 0.6014151, g: 0.6540389, b: 0.8018868, a: 1}
+    - _WallPrimaryColor: {r: 0.6117647, g: 0.67670935, b: 0.8509804, a: 1}
+    - _WallSecondaryColor: {r: 0.53706837, g: 0.60519314, b: 0.764151, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

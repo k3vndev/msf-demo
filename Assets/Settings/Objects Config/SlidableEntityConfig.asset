@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fb586cc90cad34d8dec2c4bcea9f38, type: 3}
+  m_Name: SlidableEntityConfig
+  m_EditorClassIdentifier: 
+  <NextPointMinDistance>k__BackingField: 0.15
+  <Speed>k__BackingField: 5.16
+  <RotationTime>k__BackingField: 0.44
+  <RotationEasing>k__BackingField: 9
+  <StopOnHitEntity>k__BackingField: 1
+  <EntitiesMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 264
+  <SolidsMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 34816
+  <WallHit>k__BackingField: {fileID: 8300000, guid: f6da48ad459892640b2acc6627a3ea11, type: 3}
+  <WallHitParticlesObject>k__BackingField: {fileID: 4090380334149093960, guid: d66725b5968c3ea4fb87a010076ae4de, type: 3}
+  <WallHitParticlesWallDistance>k__BackingField: 0.66
